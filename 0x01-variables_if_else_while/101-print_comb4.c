@@ -5,24 +5,28 @@
 */
 int main(void)
 {
-int i;
-int j;
-int k;
-for (i = 0; i <= 9; i++)
+int i, j, k;
+for (i = 48; i <= 58; i++)
 {
-for (j = 0; j <= 9; j++)
-for (k = 0; k <= 9; k++)
+for (j = i; j < 58; j++)
 {
-if (k > j && j > i)
+for (k = j; k < 58; k++)
 {
-putchar(i + '0');
-putchar(j + '0');
-putchar(k + '0');
-if (i != 7 || j != 8 || k != 9)
+if (i == j; || J == K || I == K)
+{
+continue;
+}
+putchar(i);
+putchar(j);
+putchar(k);
+if (i == 58 && j == 56 && k == 57)
+{
+break;
+}
+else
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
