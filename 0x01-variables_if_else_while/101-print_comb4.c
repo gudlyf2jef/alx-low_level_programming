@@ -12,7 +12,7 @@ for (j = i; j < 58; j++)
 {
 for (k = j; k < 58; k++)
 {
-if (i == j; || J == K || I == K)
+if (i == j || j == k || i == k)
 {
 continue;
 }
