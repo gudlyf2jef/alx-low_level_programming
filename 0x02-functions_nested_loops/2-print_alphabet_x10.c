@@ -4,9 +4,10 @@
 *
 * Return: always returns 0
 */
-void print_alphabet_10x(void);
+void print_alphabet_10x(void)
 {
-int j,x;
+int j;
+int x;
 for (x = 0; x < 10; x++)
 {
 for (j = 'a'; j <= 'z'; j++)
