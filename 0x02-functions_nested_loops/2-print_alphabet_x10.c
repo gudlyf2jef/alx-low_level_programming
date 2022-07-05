@@ -1,8 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet_x10 -> a function that proints 10 letters
-*
-* Return: always returns 0
+* print_alphabet_x10 -> prints the lowercase alphabet
 */
 void print_alphabet_10x(void)
 {
