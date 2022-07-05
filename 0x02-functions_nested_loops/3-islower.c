@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_islower -main function
+*_islower - main function
 *@c: character to compare
 *
 * Return: always return 0
