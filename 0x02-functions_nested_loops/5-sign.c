@@ -2,7 +2,8 @@
 /**
 *print_sign -> prints sign based on condition
 *@c: argument passed
-*Return: 1, 0 -1
+*@n: argument passed
+ *Return: 1, 0 -1
 */
 int print_sign(int n)
 {
