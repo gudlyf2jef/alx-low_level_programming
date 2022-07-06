@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 * main - causes an infinite loop
-* @i: parameter argument
+* @n: new line
+* @i: argument
 * Return: 0
 */
 int main(void)
