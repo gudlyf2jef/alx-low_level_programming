@@ -2,24 +2,18 @@
 #include <stdio.h>
 
 /**
-* main - check the code
-*
-* Return: always 0.
+* _strlen - returns the length of a string
+* @s: tring to count
+* Return: string length
 */
-int _strlen(char *s);
-
-int main(void)
-{
-	char *str;
-	int len;
-
-	str = "My first strlen!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
-}
-
 int _strlen(char *s)
 {
-	return (strlen(s);
+	int c = 0;
+
+	for (; *s != '\0'; s++)
+	{
+		c++;
+	}
+
+	return (c);
 }
