@@ -1,36 +1,51 @@
-#include <stdlib.h>
 #include "main.h"
-#include <limits.h>
 
 /**
-* _atoi - coverts a string to integer
-* @str: pointer to string to be converted
-* Return: converted string
-*/
+ * _atoi - convert a sring
+ * @s: the pointer to convert
+ * Return: an integer
+ */
+
+int _atoi(char *s)
+{
+	int c = 0;
+	unsigned int ni = 0;
+	int min = 1;
+	int isi = 0;
+
+	while (s[c])
+
+		if (s[c] == 45)
+
+		{
+
+			min *= -1;
+
+		}
 
 
 
-int _atoi(char *str)
-{
-int sign = 1, base = 0, i = 0;
-while (str[i] == ' ')
-{
-i++;
-}
-if (str[i] == '-' || str[i] == '+')
-{
-sign = 1 - 2 * (str[i++] == '-');
-}
-while (str[i] >= '0' && str[i] <= '9')
-{
-if (base > INT_MAX / 10	|| (base == INT_MAX / 10 && str[i] - '0' > 7))
-{
-if (sign == 1)
-return (INT_MAX);
-else
-return (INT_MIN);
-}
-base = 10 * base + (str[i++] - '0');
-}
-	return (base *sign);
+		while (s[c] >= 48 && s[c] <= 57)
+
+		{
+
+			isi = 1;
+
+			ni = (ni * 10) + (s[c] - '0');
+
+			c++;
+
+		}
+
+
+
+		if (isi == 1)
+		{
+
+			break;
+		}
+	c++;
+	}
+ni *= min;
+return (ni);
 }
