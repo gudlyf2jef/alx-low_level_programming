@@ -15,7 +15,7 @@ char *rot13(char *s)
 	{
 		for (i = 0; i < 52; i++)
 		{
-			if (*(s + count) == apha[i])
+			if (*(s + count) == alpha[i])
 			{
 				*(s + count) = rot13[i];
 				break;
