@@ -8,9 +8,9 @@ int palindrome(char str[], int st, int end);
  */
 int is_palindrome(char *s)
 {
-	int len = 0;
+	int len;
 
-	len - lengthc(s);
+	len = lengthc(s);
 
 	if (len == 0)
 	{
