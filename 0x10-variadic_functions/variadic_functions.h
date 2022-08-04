@@ -4,7 +4,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * struct args>t - contain the type
+ * struct args_t - contain the type and the function
  * @format: the format to print
  * @function: the functions that prints
  * Description: contains the type and the format to print.
